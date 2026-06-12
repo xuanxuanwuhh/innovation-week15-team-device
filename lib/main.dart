@@ -30,28 +30,12 @@ class TeamDeviceHomePage extends StatelessWidget {
       '用 GitHub 协作，把第 14 周个人 Hello World 升级成小组真机运行成果';
 
   static const List<TeamMember> members = [
-    TeamMember(
-      role: '组长',
-      name: '请填写组长姓名',
-      task: '创建原始仓库、维护 main、审核 PR、组织真机运行与证据提交',
-    ),
-    TeamMember(
-      role: '组员 A',
-      name: '请填写姓名',
-      task: '修改 groupName、projectTitle、projectSlogan',
-    ),
-    TeamMember(role: '组员 B', name: '请填写姓名', task: '补全 members 中的成员姓名与分工'),
-    TeamMember(
-      role: '组员 C',
-      name: '请填写姓名',
-      task: '补充 realDeviceChecks 中的真机运行检查项',
-    ),
-    TeamMember(
-      role: '组员 D',
-      name: '请填写姓名',
-      task: '补充 evidenceRules，并把真机照片加入 README',
-    ),
-  ];
+  TeamMember(role: '组长', name: '吴宣萱', task: '负责原始仓库、合并PR、组织验收'),
+  TeamMember(role: '组员A', name: '雷雅倩', task: '修改应用标题、口号和小组名'),
+  TeamMember(role: '组员B', name: '马蝶', task: '补全成员信息与分工'),
+  TeamMember(role: '组员C', name: '李娅', task: '补充Android真机检查项'),
+  TeamMember(role: '组员D', name: '刘丽', task: '补充证据规则、README照片说明'),
+];
 
   static const List<String> realDeviceChecks = [
     '主电脑能执行 flutter doctor，并识别 Android toolchain',
