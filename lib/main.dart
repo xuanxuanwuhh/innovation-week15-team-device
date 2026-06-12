@@ -56,9 +56,15 @@ class TeamDeviceHomePage extends StatelessWidget {
   static const List<String> realDeviceChecks = [
     '主电脑能执行 flutter doctor，并识别 Android toolchain',
     'Android 手机已打开开发者选项和 USB 调试',
+    'USB 数据线连接稳定，手机与电脑正常通信',
+    '手机弹出"允许 USB 调试"弹窗时已点击允许',
     'adb devices 显示设备状态为 device，而不是 unauthorized',
-    'flutter devices 能看到真实 Android 设备',
+    '确认设备型号与 Android 系统版本号',
+    'flutter devices 能看到真实 Android 设备（格式：设备型号 • 设备编号）',
     'flutter run 后手机屏幕显示本小组修改后的页面',
+    '检查应用页面布局无错位、无空白组件',
+    '确认应用可在手机上正常滑动、点击，无崩溃闪退',
+    '退出应用后重新打开，确认可再次正常运行',
   ];
 
   static const List<String> evidenceRules = [
