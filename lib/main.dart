@@ -56,6 +56,9 @@ class TeamDeviceHomePage extends StatelessWidget {
     '照片中要看到手持真实 Android 手机和本应用页面',
     'README 中要包含 GitHub 协作说明、PR 合并记录和真机照片',
     '提交前检查照片不包含私人聊天、手机号、定位等隐私信息',
+    '真机照片需存放在项目 images/ 目录下，命名为 android-real-device.jpg',
+    'README 中需注明拍摄设备型号、拍摄时间，方便溯源',
+    '所有组员的 PR 链接需在 README 中整理成表格，便于老师查看',
   ];
 
   @override

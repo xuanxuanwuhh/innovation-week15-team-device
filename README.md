@@ -6,11 +6,11 @@
 
 | 角色 | 姓名 | 任务 | PR 链接 |
 | --- | --- | --- | --- |
-| 组长 | 请填写 | 创建仓库、审核并合并 PR、组织真机运行 | 请填写 |
-| 组员 A | 请填写 | 修改小组名称、应用标题和项目口号 | 请填写 |
-| 组员 B | 请填写 | 补全成员信息与分工 | 请填写 |
-| 组员 C | 请填写 | 补充 Android 真机运行检查项 | 请填写 |
-| 组员 D | 请填写 | 补充证据规则和 README 照片说明 | 请填写 |
+| 组长 | 吴宣萱 | 创建仓库、审核并合并 PR、组织真机运行 | --- |
+| 组员 A | 雷雅倩 | 修改小组名称、应用标题和项目口号 | https://github.com/xuanxuanwuhh/innovation-week15-team-device/pull/2 |
+| 组员 B | 马蝶 | 补全成员信息与分工 | https://github.com/xuanxuanwuhh/innovation-week15-team-device/pull/1 |
+| 组员 C | 李娅 | 补充 Android 真机运行检查项 | https://github.com/xuanxuanwuhh/innovation-week15-team-device/pull/3 |
+| 组员 D | 刘丽 | 补充证据规则和 README 照片说明 | https://github.com/xuanxuanwuhh/innovation-week15-team-device/pull/4 |
 
 ## 协作流程
 
@@ -54,10 +54,10 @@ flutter run -d 设备ID
 
 ## Android 真机运行
 
-- 主电脑：请填写
-- 手机型号：请填写
+- 主电脑：华为MateBook D15 Windows11
+- 手机型号：荣耀100
 - 运行方式：`flutter run`
-- 运行日期：请填写
+- 运行日期：2026年6月13日
 
 连接手机后先检查：
 
